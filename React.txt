@@ -1,0 +1,325 @@
+REACT DESDE CERO!
+COMPROBAR E INSTALAR DEPENDENCIAS. VAMOS A USAR VSCODE.
+Conocimientos JS, HTML, CSS! Casi estoy xdd
+SPA! Single page application. Solo un archivo HTML. Se carga el contenido dinamicamente en ese HTML.
+Mejora tiempos de respuesta. Mejor experiencia de usuario. HTML con secciones.
+
+React es libreria de JS. Solucion ligera, se puede implementar a cualquier proyecto.
+Es libreria NO FRAMEWORK. Creada por facebook. Es codigo abierto.
+Es veloz. Creacion por componentes! JS y HTML asociado. Estos pueden ser pagina, un boton, etc.
+Esencia son los componentes Web para desarrollo declarativo!
+Mecanismos y estados privados para poder mostrar lo que buscamos.
+Se pueden anidar estos componentes. Isomorfismo y agilidad de desarrollo! 
+
+Creamos primera aplicacion.
+Velocidad de renderizado alta por DOM virtual. Se aplican los cambios y solo se actualiza lo que se haya modificado.
+Actualizacion potente. 
+Componentes: es separar interfaz del usuario en piezas independientes, reutilizables y aislables.
+Son mantenibles. Anidacion de componentes. Los de orden superior propagan a los de orden inferior.
+Comunicacion unidireccional, se usan eventos para que los inferiores sean reconocidos por los de orden superior.
+Datos hacia abajo, eventos hacia arriba. Paradigma declarativo. Clases y funciones.
+Tienen ambitos declarados. Va a tener un RETURN o estado privado. Devuelven elementos HTML.
+El paradigma es imperativo! Se trabaja sobre estado global de aplicacion. Identifica cuando hay un cambio.
+Ese cambio va a ser identificado y actualizado en su HTML. 
+ISOMORFISMO! Se puede renderizar tanto en servidor como en cliente. Se solucionan problemas y mejora posicionamiento.
+Archivos son .jsx! Tiene funcionalidades de jQuery. Usables.
+Se usa NodeJS! Basado en eventos asincronos, se destaca HTTP. 
+JavaScript es elq ue usa Node.
+Usar NodeJS y NPM! Uso de eventos asincronos, destaca iuso de HTTP, perfecto para librerias o frameworks web.
+Create-react-app manejar desde comandos un template de plantilla.
+npm i -g create-react-app (en cmd!!!)
+
+global para que se pueda crear en cualquier carpeta
+
+where create-react-app
+C:\Users\Gianluca\AppData\Roaming\npm\create-react-app
+
+NPM es gestor de paquetes de Node. Ya lo he usado en el pasado.
+Se pueden crear y publicar en npm.
+
+crea carpeta con dependencias
+se instala react, de donde salen funcionalidades
+
+npx tambien se puede usar
+npm run build
+npm start (Fundamental)
+
+node-moludes dependencias react
+public con archivos html
+src con los componentes y configuraciones
+app.js es la pagina
+tenemos el css, los arcihvos generales de estilos
+logos en distintos tamaños, que se van a renderizar
+index con inicio del proyecto
+reportevitals tambien
+setuptests
+
+npm para hacer deploy, para publicar a produccion, infinitos usos
+
+npm scripts
+http, sera https cuando tengamos ssl
+
+La aplicacion en localhost, editar App.js y guardar para recargar la vista
+Solo guardando ya se actualizan los componentes, no hace falta recargar
+Se renderizan elementos jsx, combinacion de html y js
+Tiene muchisimos componentes
+ReactDevTools instalar todo esto
+Primer componente APP!!!
+Las props, que son y su origen (source)
+
+Nuestro archivo APP
+Tiene header, imagen con logo
+Los archivos css que se aplican y todo eso
+jsx es js con html
+la funcion devuelve un elemento
+hace un return {}
+es exportado y mostrado en el siguiente
+eso es lo que se muestra
+
+node modules no se va a tocar, las instalaciones van a ser de la terminal, no desde aca
+el favicon es el icono de la pagina
+tenemos el index.html, que es el html principal 
+los componentes van a estar en linea 31
+div id=root!!!
+se tiene el logo, manifest.json y robots.txt, eso es todo de paginas web
+
+el package.json tiene por defecto
+nombre, version, si solucionm es privada o publica, depenmdencias de produccion
+las herramientas de testing
+scripts!!! start del servidor
+build 
+test
+eject! para desconfigurar proyecto
+
+eslintconfig reglas a utilizar!
+como se desarrolla en js, esta embebido dentro
+navegadores a usar para produccion y desarrollo, chrome, firefox, safari, etc
+
+gitignore, se lista lo que no se controla en git
+el install genera el node modules en cualquier proyecto
+
+src!! reactDOM para renderizar lo que aparece entre parentesis
+renderiza una estructura react en modo estricto
+app es componente principal de aplicacion
+el elemnto es el root, donde estara el App
+
+el App.js es una function!!!
+devuelve un elemnto html! es un div
+solo puede ser un solo div
+
+componentes devuelven unico elemento
+usando reactapp, no creando desde cero
+
+componente es elemento reutilizable! pueden no ser reactivos
+esencia de react, que sean reactivos!
+que se puedan mostrar o no depende las circunstancias!
+montar jerarquia de componentes
+
+componentes pure! sencillos, sin mucha logica y complejidad
+greeting.jsx!!! creo elemento html a renderizar para agregar
+
+se depura en vscode, no el navegador
+colores para tendencias en javascript
+
+componentes clase vs componentes funcionales
+hooks de cada componente
+nos interesan proptypes aparte!
+
+archivo de react
+en component se importa component
+es clase qeue se extiende
+requiere de metodo render
+siempre debe devolver un parentesis con un html
+
+es un jsx, combo js y html
+proptypes son contenidos que puedo pasar a un componente!
+desde un orden superior
+se devuelve solo un elemento!!! dentro bastante contenido
+
+debemos ir a app.js
+COMPONENTES VAN ENTRE eTIQUETAS
+SIEMPRE CERRAR ETIQUETAS
+ES CONTENIDO JS, EMBEBIDO
+
+HACER IMPORT!
+
+importar componente!!!
+renderizar si hace falta clases con mayus
+
+componentes tipo clase tienen metodos, constructores, etc
+las funciones siempre devuelven algo
+
+propiedades son cualquier elemento html
+se puede pasar entre cosas
+defino que datos puedo pasar, que props
+le paso cosas a estos y opera con ello
+
+state es un valor privado, para gestionarse o mostrar lo que tengo que mostrar
+propiedades de la clase
+al modificarse actualiza la vista!!!
+
+lo que es por parametros
+this.props.dasdsa
+lo que es por atributo (estatico e inmutable)
+this.state.adsd
+
+SI no se pasa nada, valor por defecto es vacio!!!
+parametros se pasan como html!
+
+PROPTYPES declarado pero nunca usado
+sirven para especificar el tipo del dato que vamos a pasar
+buscar maneras para usar correctamente componente
+es como para limitar lo que se puede pedir
+se puede usar instanceof, objectof
+
+PROPTYPES.STRING!!!
+formato va con shape!
+controlar el estado de aplicacion
+
+forzar la regeneracion de ese estado!!!
+hacer cambio en la vista en un state es con una funcion llamada setstate
+
+debe ser tipo flecha para no usar this. y todo eso en cada metodo!
+hacer un setState(prevState!!!
+agarro el anterior y ahi lo puedo modificar
+adentro prevState.anime dasokdsaokdaspo le asigno lo que quiera
+todo tiene un estado previo, de ahi defino el nuevo estado
+por mas que sea diferente lo asigno con prevState = 2
+
+se usa un evento en el <button> onClick!!! es un evento
+llamadas va con {} al ser js
+no van () porque no se ejecutra! callback!!!
+
+si no cambio el estado y solo cambio el valor
+se cambia el valor de manga pero NO se cambia la vista
+para eso generar estado desde cero
+
+desde ahora ya funciones!
+interactuar con todo lo que se ofrece, siempre es con funciones
+tocar RFC!!! con PropTypes
+constante o function!!!
+
+no hay props ni state
+se definen manualmente en el parentesis!
+puede ser uno por uno o por props!
+
+hay que usar useState!!!
+agarra el valor que habia y genera uno nuevo
+aplica la funcion que le paso por parentesis!!!
+
+const [variable, metodo para actualizarlo] = useState(valor inicial)
+asi con todo lo que necesite!!!
+
+las funciones se hacen con constante, importar useState
+
+conmtainer son componentes que tienen logica y datos!!!
+dedicado a tareas
+container y pure va bastante bien!
+hooks carpeta en src para react!
+routes para rutas html de react, que ruta va para cada componente, como db
+componentes que rendericen pagina
+
+carpeta models con carpetita de datos!!!
+
+
+aplicacion con menu lateral, me sirve
+diferentes rutas y contenidos
+contenido de aplicacion
+componente tarea con varias
+sirva para gestionar tareas
+
+hacemos varias clases, siempre hacer export!!!
+en models mete todos los objetos
+todo se exporta porque es js!!!
+enumerados con clave, valor!
+clase con varios valores!
+
+creo clases en js y luego en jsx para los componentes.
+
+app a tasklist y a task
+paso una tarea en formato prop
+uso el instanceof para los proptypes de objetos!
+
+operador ternario es igual a c#
+dsads ? "" : ""
+
+meter logica en html!!!
+props pueden ser datos, funciones, etc
+datos a hijos y logica compleja!!!
+hijos solo reciben y operan.
+como devuelvo algo?¡??
+en el return pongo un objeto, taskComponent = task y tal
+
+un servidor local no es lo mismo
+aviso de no renderizado
+se pueden enviar funciones a hijos!
+
+Archivo nuevo: .editorconfig
+con extension
+identado, tamaño de espacios, tabulaciones, etc
+saltos de linea, tamaño tabulaciones, etc
+
+ciclo de vida, imagen oficial
+archivo .md para tabla
+
+hooks, simplifica mecanismos para componentes funcionales!
+al crear componentes de tipo funcion
+mecanismo para trabajar estados, referencias, algunos ejemplos
+
+funciones para simplificar mecanismos para componentes funcionales
+componentes de tipo funcion!!! devuelve jsx
+se necesita mecanismo para trabajar con estados, referencias, contextos
+
+los HOOKS empiezan con use!!!
+useState, useCallback, useMemo, etc
+
+se pueden crear objetos tipo c# con varios valores!
+con referencia se pueden acceder a todas las referencias, propiedades, del elemento
+useeffect! controlar un uso del hook!!!
+
+USEEFFECT => DESENCADENAR ALGO AL CAMBIAR ESE ESTADO!
+USEREF => VER REFERENCIA A ALGUN OBJETO, EJEMPLO H4, SU NOMBRE Y PROPIEDADES
+
+poner entre corchetes una lista, solo esos valores tiene ese useeffect
+SOLO SE PUEDE UN USEEFFECT!
+
+se crea el contrexto!!!!
+jerarquia de componentes, uso state como con clases
+proporciono datos a todos los compnentes que esten por debajo!
+inyectamos datos en compoennte, paso datos de padres a hijos!
+
+se crea un contexto. Luego lo redefino en el padre, con un estadoInicial!
+
+hago miContexto.Provider (eso es inyectar, pasar de uno a otro!) value = (lo que paso)
+
+RFCC!!!
+
+EVENTOS!!! puede ocurrir en padre o en hijo
+fundamental saber que decir de uno al otro
+se debe meter en una funcion anonima, sino se va a intentar hacer en una funcion anonima!!!
+comilla invertida para sustitucion de comandos
+entonces esto ira () => funcion("asdsa"
+para que no se haga cuando se inicia, sino cuando toco!!!
+en algunos metodos como onChange, pongo entre parentesis una E!!!
+entonces se cambia el valor 
+ASI SE TIRAN EVENTOS!
+SYNTHETICBASEEVENT e.target.value!
+click en orden superior!
+se ejecuta funcion en orden superior!
+subo jerarquia de componentes
+
+SI PADRE PASA UNA FUNCION COMO UN PROP!!!
+PUEDO OPERAR Y DEVOLVER CON ELLA
+En realidad se ejecuta en father! Pero lo acciona el child
+se puede acceder a valor del elemento con useRef!
+messageRef.current.value por ejemplo
+
+el padre es el que controla el evento
+aunque se trigeree del hijo! 
+cada vez que hago un submit se recarga la pagina!
+envio el nuevo texto con update!
+
+onsubmit le pone el valor!
+FUNDAMENTAL PONER ref=NAMEREF en el input!!!
+SINO NO ESTOY MODIFICANDO NADAAAAAAAA
+ENTONCES PONGO LA REF EN EL INPUT, Y AHI EL SUBMIT SURTE EFECTO!
