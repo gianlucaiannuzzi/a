@@ -1,11 +1,13 @@
-
-
-h1 {
-    color: cyan;
+.task-action {
+    cursor: pointer;
 }
 
-.task-name {
+.task-completed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.task-pending {
     font-weight: bold;
-    color: cadetblue;
+    color: tomato;
 }
-

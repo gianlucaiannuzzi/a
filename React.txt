@@ -323,3 +323,98 @@ onsubmit le pone el valor!
 FUNDAMENTAL PONER ref=NAMEREF en el input!!!
 SINO NO ESTOY MODIFICANDO NADAAAAAAAA
 ENTONCES PONGO LA REF EN EL INPUT, Y AHI EL SUBMIT SURTE EFECTO!
+
+keys va de 0, 1, 2, 3, etc!
+la logica en el componente contenedor!
+se puede poner funciones como proptypes.
+isrequired!!!
+
+varios classnames separados por espacio!
+cursor pointer
+
+consigo el indice de una lista!!!
+tasks.indexOf(TASK)
+me da el indice de la task que paso por parametro!
+
+[...tasks] me da todos los elementos de esa lista!
+siempre iterar sobre una lista temporal!
+
+va andando bien!
+unmount tambien cuando se cambia de posicion!
+
+crearlo con referencias papu!
+fundamentar poner ids en campos que puedan ser manejables!!!
+splice para borrar, indice y cantidad
+push para agregar
+
+depurando! prueba y error anashex
+pruebas unitarias, funcionales, de integracion!
+
+punto de ruptura en el codigo!
+
+clave siempre que me pida cambio de password
+
+existe watch, breakpoints, pausa, step over! todo se debugea en el navegador!
+
+se pueden poner breakpoints tocando el costadito!
+se stoppea igual que cualquier cosita
+
+test no hace falta hacer parte por parte
+debug es probar codigo y comprobar que funcione correctamente parte por parte!
+
+se pueden ver los valores!
+va con variables directamente!
+controlar orden de ejecucion, parametros, referencias, etc
+
+se puede deshabilitar breakpoints, esta bueno eso!
+puedo hacer length para longitud!
+
+depurar en vscode?
+se pueden poner breakpoints por las extensiones!
+en seccion run and debug!
+
+obliga a crear launch.json! es el que utilizara instancia del navegador para debugear
+chrome debug!
+
+bloque de configuraciones zzzzzzzzzzz
+attach o launch
+
+MODELO VISTA CONTROLADOR
+recibe datos del modelo y actualiza el modelo 
+vista es html
+controlador es jsx, envia datos a la vista
+modelo son los compoenntes
+por vista recibe los datos el usuario, este los envia al controlador
+
+interactuar con componentes mas pequeños
+estructura simple, muy completa y comoda!
+actualizar estado global! redacts creo
+
+interactuar con vista y que usuario sepa cuando mostrar controlador!
+
+renderizado condicional!!!!
+una expresion true o false && <P></P> => un mensaje html!!!
+solo se imprimira el que se cumpla la primera expresion!
+
+SOLIDO LA VERDAD!
+con operador ternario (the best one ever)
+
+el .map tambien es un renderizado condicional.
+tucson
+
+constantes dan mas juego, mejor sin usar .scss
+para mi mas fachero tener todo en css, separar estilo de codigo!
+
+texto existe o no existe!
+valor de loading esta en false, asi que si existe!!!
+
+
+si agrego los estilos como constantes!!! van con style!!!
+si los agrego como css!!! van con class-name!!!
+
+submit hace post a ruta completa, recargar de la pagina siempre. por eso preventdefault!
+
+forms para hacer opearciones como agregar una tarea y todo eso!
+onsubmitt ejeecuta el type=submit!
+
+formik! libreria potente para crear formularios

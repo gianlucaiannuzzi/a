@@ -10,6 +10,7 @@ import Hook4 from './hooks/Hook4.jsx';
 import Torneo from './Components/pure/torneo.jsx';
 import GreetingStyled from './Components/pure/greetingStyled.jsx';
 import Father from './Components/container/father.jsx';
+import OptionalRender from './Components/pure/optionalRender.jsx';
 function App() {
   return (
     <div className="App">
@@ -35,7 +36,9 @@ function App() {
       {/* </header>  */}
       {/* Gestion de Eventos */}
       {/* <Father></Father> */}
-      {/*<TaskListComponent></TaskListComponent>*/}
+      {/* <OptionalRender></OptionalRender> */}
+
+      <TaskListComponent></TaskListComponent>
     </div>
   );
 }
